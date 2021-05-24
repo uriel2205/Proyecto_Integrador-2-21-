@@ -1,0 +1,33 @@
+body{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    width:90%;
+}
+
+.seccion{
+    width: 70%;
+    padding: 1rem;
+    background-color:#eee;
+    border: solid #000 1px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.seccion img{
+    width:90%;
+    padding:1rem;  
+    justify-content:center;
+}
+
+.seccion a{
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    width: 50%;
+    padding: 5px;
+    margin:auto;
+}
